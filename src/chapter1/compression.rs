@@ -61,6 +61,6 @@ mod tests {
         let original = "CAGTCGATAGAGTAT";
         let compressed = CompressedGene::compress(original);
         assert_eq!(compressed.bit_string, 1389938867);
-        assert_eq!(CompressedGene::decompress(&compressed), original);
+        assert_eq!(compressed.decompress(), original);
     }
 }
