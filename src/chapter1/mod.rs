@@ -1,2 +1,4 @@
-pub mod fib;
+#[allow(dead_code)]
 pub mod compression;
+#[allow(dead_code)]
+pub mod fib;
