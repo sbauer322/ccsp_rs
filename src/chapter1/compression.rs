@@ -1,3 +1,5 @@
+/// Corresponds to CCSP in Python, Section 1.2, titled "Trivial Compression"
+
 #[derive(Debug)]
 struct CompressedGene {
     bit_string: i32,

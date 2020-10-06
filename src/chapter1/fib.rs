@@ -1,3 +1,5 @@
+/// Corresponds to CCSP in Python, Section 1.1, titled "The Fibonacci Sequence"
+
 // for small values of n only
 fn fib2(n: usize) -> usize {
     if n < 2 {
